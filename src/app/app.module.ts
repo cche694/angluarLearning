@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ScrollableComponent } from './components/scrollable/scrollable.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ScrollableComponent
   ],
   imports: [
     BrowserModule,

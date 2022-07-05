@@ -1,0 +1,27 @@
+ul {
+  font-size: 14px;
+  display: flex;
+}
+
+ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5px;
+  padding: 0 5px;
+  white-space: nowrap;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.active {
+  color: rgb(55, 43, 219);
+}
+.indicator {
+  background-color: brown;
+  font-size: 14px;
+  height: 1px;
+  width: 2rem;
+  margin-top: 2px;
+}
